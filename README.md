@@ -6,6 +6,7 @@ It will have its own file if deemed necessary.
 Variable Conventions ->
 
 camelCase :
+
 let numberOfApples = 9;
 
 const numberOfGrapes = 10;
