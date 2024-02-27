@@ -38,6 +38,10 @@ Aritmetic in Javascript ->
 5. (%) = Modules
 
 
+Comparsion -> === or ==
+
+Assign -> =
+
 
 
 
