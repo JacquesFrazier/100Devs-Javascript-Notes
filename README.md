@@ -39,6 +39,7 @@ Aritmetic in Javascript ->
 
 
 General Notes:
+
 Comparsion -> === or ==
 
 Assign -> =
