@@ -18,8 +18,8 @@ Strings ->
 ex:
 "Hello World";
 'Hi World';
-let some = 'Mundo';
-`Hola ${some}`
+let some = 'Mundo' - 
+console.log(`Hola ${some}`)
 
 double quotes vs single quotes
 -whatever you use on the outside you can't use on the inside.
