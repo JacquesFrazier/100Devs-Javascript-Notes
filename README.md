@@ -19,8 +19,11 @@ Strings ->
 -string is surrouned by quotes
 
 ex:
+
 "Hello World";
+
 'Hi World';
+
 let some = 'Mundo' - 
 console.log(`Hola ${some}`)
 
