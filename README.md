@@ -17,9 +17,7 @@ Strings ->
 
 ex:
 "Hello World";
-
 'Hi World';
-
 let some = 'Mundo';
 `Hola ${some}`
 
