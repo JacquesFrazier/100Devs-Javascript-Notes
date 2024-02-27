@@ -5,9 +5,11 @@ It will have its own file if deemed necessary.
 
 Variable Conventions ->
 
-    camelCase :
+camelCase :
 let numberOfApples = 9;
+
 const numberOfGrapes = 10;
+
 var numberOfOranges = 22;
 
 Strings -> 
