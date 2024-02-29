@@ -30,9 +30,10 @@ function threeNum(f, g, h){
 //If the product is less that 100, subtract the difference of the last two numbers and console log the value. 
 //If the product is 100, multiply the first three numbers together and alert the remainder of dividing the fourth number
 
-function fourNum(d, v, b, n){
+function fourNum(n1, n2, n3, n4){
 
-    let product = n1 * n2
+    let product = n1 * n2;
+    
     if(product > 100){
         console.log(product + n3 + n4)
     }else if(product < 100){
