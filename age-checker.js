@@ -28,22 +28,28 @@ function driveAge(age){
 //Take the value from the input
 //Place the result of the conditional in the paragraph
 
-document.querySelector('h1').addEventListener('click', checkAge );
+document.querySelector('h1').addEventListener('click', checkAge);
+
+const p = document.querySelector('p');
 
 function checkAge(){
-   let age = Number(document.querySelector('input').value);
-   if(age < 16){
-        return 'Can not drive'
+   
+    let age = Number(document.querySelector('input').value);
+  
+    if(age < 16){
+        p.innerText = 'Can not drive'
     }else if(age < 18){
-        return "Can't hate from outside the club, because they can't even get in"
+        p.innerText = "Can't hate from outside the club, because they can't even get in"
     }else if(age < 21){
-        return "Can not drink"
+        p.innerText = "Can not drink"
     }else if(age < 25){
-        return "Can not rent card affordably"
+        p.innerText = "Can not rent card affordably"
     }else if(age < 30){
-        return "Can not rent fancy cars affordably"
+        p.innerText = "Can not rent fancy cars affordably"
     }else{
-        return "There is nothing left to look forward too"
+        p.innerText = "There is nothing left to look forward too"
     }
 }
+
+
 
