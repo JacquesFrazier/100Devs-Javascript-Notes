@@ -58,10 +58,13 @@ reusble sets of instructions.
 ex:
 
 function name(parameters){
+
 //body
+
 }
 
 //call
+
 name(arguments)
 
 
